@@ -14,7 +14,7 @@ class DatabaseSeeder extends Seeder
 
         \App\Models\City::factory(30)->create();
 
-        \App\Models\Commodity::factory(50000)->create();
+        \App\Models\Commodity::factory(5000)->create();
 
         $commodities = \App\Models\Commodity::all();
 
