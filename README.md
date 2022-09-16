@@ -1,25 +1,25 @@
-Интернет-магазин "Laravel Shop", в котором продаются разные товары. 
-Со временем ассортимент увеличился, и мы открыли несколько городов в которых делаем доставку.
+Online store "Laravel Shop", which sells various products.
+Over time, the range has increased, and we have opened several cities in which we deliver.
 
-**Нам нужно добавить фильтры, чтобы человек мог посмотреть товары только в нужных категориях и городах**.
+**We need to add filters so that a person can view products only in the right categories and cities**.
 
-**Фильтрация:**
-- Фильтр по категории – должен позволять выбрать только одну категорию товаров.
-- Фильтр по городу – должен позволять выбрать один или несколько городов, в которых есть нужный товар.
-- Можно выбрать категорию и города одновременно.
-- Фильтрация должна работать на уровне БД.
+**Filterig:**
+- Filter by category - should allow you to select only one category of goods.
+- Filter by city - should allow you to select one or more cities that have the desired product.
+- You can select category and city at the same time.
+- Filtering should work at the database level.
 
-**Тестовые данные**
-- Необходимо написать seeder, который создаст 5 тысяч товаров, 100 категорий и 30 городов и перелинкует их.
-- Названия товаров, категорий и городов могут быть случайными словами или идентификаторами.
+**Test data**
+- It is necessary to write a seeder that will create 5 thousand products, 100 categories and 30 cities and link them.
+- The names of products, categories and cities can be random words or identifiers.
 
-**Интерфейс**
-- Создан с помощью Laravel Livewire, что обновление данных выполнялось без перезагрузки страницы при выборе селектов и чекбоксов.
+**Interface**
+- Created with Laravel Livewire to update data without reloading the page when selecting selects and checkboxes.
 
 
-### Как развернуть проект для разработки
+**How to deploy a project**
 
-Инструкция с использованием Docker (MacOS, Linux):
+Instruction using Docker:
 
 ```bash
 git clone git@github.com:a-romald/laravel-shop.git && cd laravel-shop
